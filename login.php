@@ -136,7 +136,7 @@ $conn->close();
             margin: 0 10px -3px 25px;
         }
 
-        .gfg-button {
+        .gfg-a {
             outline: none;
             border: none;
             cursor: pointer;
@@ -153,12 +153,12 @@ $conn->close();
             transition: 1s;
         }
 
-        .gfg-button:hover {
+        .gfg-a:hover {
             background: #5fb87d;
             transition: 1.5s;
         }
 
-        .gfg-button:active {
+        .gfg-a:active {
             background: #4a9764;
         }
 
@@ -196,7 +196,7 @@ $conn->close();
                     <input type="password" name="password" placeholder="password" required />
                 </div>
             </div>
-            <button class="gfg-button" type="submit">Login</button>
+            <button href="index.html" class="gfg-button">Login</button>
         </form>
         <div class="gfg-link">
             <a href="#"> Forgot password?</a> OR <a href="#">Signup</a>
